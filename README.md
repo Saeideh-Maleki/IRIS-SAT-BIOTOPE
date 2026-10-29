@@ -37,7 +37,7 @@ Google Earth Engine is **not required to run this software**. If using GEE-expor
 
 ## 3\. First run — local GeoTIFFs (simplest option)
 
-1. TIFFs are stored  in `data/images/` .
+1. TIFFs are downloaded from GEE and stored  in `data/images/` .
 2. Set these fields in `config.json` (leave the other existing settings as they are):
 
 ```json
