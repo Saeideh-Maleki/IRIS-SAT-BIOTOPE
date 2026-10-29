@@ -1,0 +1,84 @@
+{
+  "source": "tif",
+  "synthetic_data": false,
+  "crs": "EPSG:32630",
+  "resolution_m": 20,
+  "dates_and_clear_coverage": [
+    {
+      "file": "S2_202006.tif",
+      "date": "2020-06-01",
+      "clear_aoi_fraction": 0.994
+    },
+    {
+      "file": "S2_202008.tif",
+      "date": "2020-08-01",
+      "clear_aoi_fraction": 0.997
+    },
+    {
+      "file": "S2_202106.tif",
+      "date": "2021-06-01",
+      "clear_aoi_fraction": 0.996
+    },
+    {
+      "file": "S2_202108.tif",
+      "date": "2021-08-01",
+      "clear_aoi_fraction": 0.999
+    },
+    {
+      "file": "S2_202206.tif",
+      "date": "2022-06-01",
+      "clear_aoi_fraction": 0.999
+    },
+    {
+      "file": "S2_202208.tif",
+      "date": "2022-08-01",
+      "clear_aoi_fraction": 0.71
+    },
+    {
+      "file": "S2_202306.tif",
+      "date": "2023-06-01",
+      "clear_aoi_fraction": 0.486
+    },
+    {
+      "file": "S2_202308.tif",
+      "date": "2023-08-01",
+      "clear_aoi_fraction": 0.999
+    }
+  ],
+  "raster_maps": [
+    {
+      "month": "2022-06",
+      "comparable_pixels": 41510,
+      "disturbed_pixels": 465
+    },
+    {
+      "month": "2022-08",
+      "comparable_pixels": 29571,
+      "disturbed_pixels": 22677
+    },
+    {
+      "month": "2023-06",
+      "comparable_pixels": 20214,
+      "disturbed_pixels": 7496
+    },
+    {
+      "month": "2023-08",
+      "comparable_pixels": 41748,
+      "disturbed_pixels": 19432
+    }
+  ],
+  "notes": [
+    "SCL classes 4/5/6 used as clear; thin clouds may remain.",
+    "Monthly median from available scenes; missing months remain missing.",
+    "No predefined disturbance year; compare with at least two preceding same-month years.",
+    "Reference-only months produce no alert rows or disturbance maps.",
+    "Each comparable pixel requires at least two valid earlier same-month values.",
+    "Potential vegetation disturbance is not proof of biotope damage.",
+    "Site polygons are test sites, not official protected biotope boundaries.",
+    "Baseline confidence limited when prior years or clear pixels are few.",
+    "NBR reported as complementary indicator, not a separate alert rule.",
+    "No direct iris_staging integration; local GeoJSON/CSV are proposed staging outputs.",
+    "Maps: 1=potential disturbance, 0=no significant decline, 255=no valid comparison.",
+    "YYYYMM GeoTIFF filenames are monthly labels, not exact acquisition dates."
+  ]
+}

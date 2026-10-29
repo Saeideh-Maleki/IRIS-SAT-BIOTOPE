@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.224,
+              44.52
+            ],
+            [
+              -1.194,
+              44.52
+            ],
+            [
+              -1.194,
+              44.55
+            ],
+            [
+              -1.224,
+              44.55
+            ],
+            [
+              -1.224,
+              44.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "site_id": "FOREST_WEST",
+        "year": 2022,
+        "month": 6,
+        "status": "STABLE",
+        "clear_fraction": 1.0,
+        "affected_fraction": 0.023,
+        "mean_ndvi": 0.7,
+        "mean_nbr": 0.554,
+        "baseline_years": 2,
+        "input_scenes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.19,
+              44.52
+            ],
+            [
+              -1.164,
+              44.52
+            ],
+            [
+              -1.164,
+              44.55
+            ],
+            [
+              -1.19,
+              44.55
+            ],
+            [
+              -1.19,
+              44.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "site_id": "FOREST_EAST",
+        "year": 2022,
+        "month": 6,
+        "status": "STABLE",
+        "clear_fraction": 0.998,
+        "affected_fraction": 0.001,
+        "mean_ndvi": 0.667,
+        "mean_nbr": 0.57,
+        "baseline_years": 2,
+        "input_scenes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.224,
+              44.52
+            ],
+            [
+              -1.194,
+              44.52
+            ],
+            [
+              -1.194,
+              44.55
+            ],
+            [
+              -1.224,
+              44.55
+            ],
+            [
+              -1.224,
+              44.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "site_id": "FOREST_WEST",
+        "year": 2022,
+        "month": 8,
+        "status": "POTENTIAL_DISTURBANCE",
+        "clear_fraction": 0.819,
+        "affected_fraction": 0.781,
+        "mean_ndvi": 0.418,
+        "mean_nbr": 0.191,
+        "baseline_years": 2,
+        "input_scenes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.19,
+              44.52
+            ],
+            [
+              -1.164,
+              44.52
+            ],
+            [
+              -1.164,
+              44.55
+            ],
+            [
+              -1.19,
+              44.55
+            ],
+            [
+              -1.19,
+              44.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "site_id": "FOREST_EAST",
+        "year": 2022,
+        "month": 8,
+        "status": "INSUFFICIENT_DATA",
+        "clear_fraction": 0.589,
+        "affected_fraction": 0.769,
+        "mean_ndvi": 0.299,
+        "mean_nbr": 0.206,
+        "baseline_years": 2,
+        "input_scenes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.224,
+              44.52
+            ],
+            [
+              -1.194,
+              44.52
+            ],
+            [
+              -1.194,
+              44.55
+            ],
+            [
+              -1.224,
+              44.55
+            ],
+            [
+              -1.224,
+              44.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "site_id": "FOREST_WEST",
+        "year": 2023,
+        "month": 6,
+        "status": "INSUFFICIENT_DATA",
+        "clear_fraction": 0.129,
+        "affected_fraction": 0.365,
+        "mean_ndvi": 0.624,
+        "mean_nbr": 0.304,
+        "baseline_years": 3,
+        "input_scenes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.19,
+              44.52
+            ],
+            [
+              -1.164,
+              44.52
+            ],
+            [
+              -1.164,
+              44.55
+            ],
+            [
+              -1.19,
+              44.55
+            ],
+            [
+              -1.19,
+              44.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "site_id": "FOREST_EAST",
+        "year": 2023,
+        "month": 6,
+        "status": "POTENTIAL_DISTURBANCE",
+        "clear_fraction": 0.89,
+        "affected_fraction": 0.375,
+        "mean_ndvi": 0.561,
+        "mean_nbr": 0.253,
+        "baseline_years": 3,
+        "input_scenes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.224,
+              44.52
+            ],
+            [
+              -1.194,
+              44.52
+            ],
+            [
+              -1.194,
+              44.55
+            ],
+            [
+              -1.224,
+              44.55
+            ],
+            [
+              -1.224,
+              44.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "site_id": "FOREST_WEST",
+        "year": 2023,
+        "month": 8,
+        "status": "POTENTIAL_DISTURBANCE",
+        "clear_fraction": 1.0,
+        "affected_fraction": 0.432,
+        "mean_ndvi": 0.565,
+        "mean_nbr": 0.215,
+        "baseline_years": 3,
+        "input_scenes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.19,
+              44.52
+            ],
+            [
+              -1.164,
+              44.52
+            ],
+            [
+              -1.164,
+              44.55
+            ],
+            [
+              -1.19,
+              44.55
+            ],
+            [
+              -1.19,
+              44.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "site_id": "FOREST_EAST",
+        "year": 2023,
+        "month": 8,
+        "status": "POTENTIAL_DISTURBANCE",
+        "clear_fraction": 0.998,
+        "affected_fraction": 0.495,
+        "mean_ndvi": 0.481,
+        "mean_nbr": 0.183,
+        "baseline_years": 3,
+        "input_scenes": 1
+      }
+    }
+  ]
+}

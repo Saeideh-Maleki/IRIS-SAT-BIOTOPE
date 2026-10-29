@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "FOREST_WEST"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.224,
+              44.52
+            ],
+            [
+              -1.194,
+              44.52
+            ],
+            [
+              -1.194,
+              44.55
+            ],
+            [
+              -1.224,
+              44.55
+            ],
+            [
+              -1.224,
+              44.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "FOREST_EAST"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.19,
+              44.52
+            ],
+            [
+              -1.164,
+              44.52
+            ],
+            [
+              -1.164,
+              44.55
+            ],
+            [
+              -1.19,
+              44.55
+            ],
+            [
+              -1.19,
+              44.52
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
