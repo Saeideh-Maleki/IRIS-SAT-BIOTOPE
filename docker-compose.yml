@@ -1,0 +1,11 @@
+services:
+  detector:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+    environment:
+      - CDSE_USER
+      - CDSE_PASSWORD
+    stdin_open: true
+    tty: true

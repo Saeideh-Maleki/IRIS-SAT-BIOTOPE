@@ -1,0 +1,25 @@
+{
+  "source": "tif",
+  "images": "data/images",
+  "sites": "data/sites.geojson",
+  "output": "outputs",
+  "crs": "EPSG:32630",
+  "resolution_m": 20,
+  "ndvi_drop": -0.2,
+  "min_affected_fraction": 0.15,
+  "min_clear_fraction": 0.6,
+  "synthetic_data": false,
+  "bbox_lonlat": [
+    -1.23,
+    44.51,
+    -1.16,
+    44.56
+  ],
+  "start_year": 2020,
+  "end_year": 2023,
+  "months": [
+    6,
+    8
+  ],
+  "max_scene_cloud_percent": 25
+}
