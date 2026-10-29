@@ -150,7 +150,7 @@ Install and start Docker Desktop. In the project folder, set `"source": "tif"` (
 docker compose up --build
 ```
 
-The supplied Compose configuration makes local `data/` available read-only and writes output to local `outputs/`. Building an image requires access to the Python base image and dependencies. 
+The supplied Compose configuration makes local `data/` available and writes output to local `outputs/`. Building an image requires access to the Python base image and dependencies. 
 
 ## 10\. Reproducibility, assumptions and limitations
 
