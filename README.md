@@ -161,5 +161,5 @@ The supplied Compose configuration makes local `data/` available and writes outp
 * **Geographic reference:** Example raster processing uses **EPSG:32630** (appropriate UTM zone for La Teste-de-Buch); GeoJSON site geometries are in **EPSG:4326**. Check/adapt projected CRS for other locations.
 * **Integration:** Output files demonstrate a local, staging-style interface. The assignment's `iris\_staging` service interface was not supplied, so **no live staging/production database write is implemented**. Nothing writes to `iris\_core` or production systems.
 
-## 
+## The example GeoTIFF images were exported from Google Earth Engine using Sentinel-2 Level-2A data. The original GEE export script is not included. For independent data acquisition and processing, the project provides an automated Copernicus Data Space download option.
 
